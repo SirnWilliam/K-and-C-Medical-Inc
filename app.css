@@ -1,0 +1,233 @@
+header,
+main,
+nav,
+footer,
+figure,
+figcaption,
+aside,
+section,
+artical {
+    display: block;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#wrapper {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 930px;
+    max-width: 2048px;
+    border: 1px solid #0b0b0b;
+}
+
+header {
+    background-image: url(images/sirn-1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 720px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(00,32,96);
+}
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Time New Roman", sans-serif;
+}
+
+li a:hover b {
+    color: orangered;
+}
+a b {
+    color: white;
+}
+b {
+    color: orangered;
+}
+.about-block-1 {
+    background-color: darkslateblue;
+    width: 500px;
+    font-size: 14px;
+}
+.about-footer {
+    height: 80px;
+    background-color: rgb(0,32,96);
+    color: white;
+    text-align: center;
+}
+footer a {
+    color:white;
+    padding: 16px 16px;
+    font-family: "Time New Roman", sans-serif;
+}
+footer a:hover b {
+    color: orangered;
+}
+.Row {
+    display: table;
+    width: 100%; 
+    table-layout: fixed;
+    border-spacing: 10px; 
+    background-color:white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Column {
+    display: table-cell;
+    background-image: url(images/consulting-konsultasi-bisnis-umkm.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 600px;
+    height: 400px;
+}
+.Column-1 {
+    display: table-cell;
+    font-size: 33px;
+    padding-left: 5px;
+    color: rgb(00,32,96);
+    font-family: sans-serif;
+}
+.Row-2 {
+    display: table;
+    table-layout: fixed;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.Column-3 {
+    display: table-cell;
+    text-align: center;
+    color: white;
+}
+.button {
+    font: bold 33px Arial;
+    text-decoration: none;
+    background-color: rgb(00,32,96);
+    color: orangered;
+    padding: 2px 6px 2px 6px;
+}
+.Column-3 a:hover {
+    color:white;
+}
+.Row-3 {
+    display: table;
+    table-layout: fixed;
+    width: 80%;
+    height: 500px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-spacing: 10px;
+    margin-left: 10%;
+}
+.Column-5 {
+    display: table-cell;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    border-spacing: 10px;
+    background-color: rgb(00,32,96);
+}
+.Column-6 {
+    display: table-cell;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    border-spacing: 10px;
+    background-color: rgb(00,32,96);
+}
+h1 {
+    color: rgb(00,32,96);
+}
+.parag {
+    font-size: 25px;
+}
+legend {
+    font-size: 20px;
+    text-align: center;
+    color: orangered;
+    background-color: rgb(00,32,96);
+    margin-bottom: 10px;
+    padding: inherit;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    line-height: 20px;
+}
+fieldset {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+fieldset div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: white;
+    line-height: 30px;
+    text-align: left;
+    background-color: rgb(00,32,96);
+}
+.about-main {
+    text-align: center;
+}
+
+.contact-info {
+    background-color: rgb(00,32,96);
+    width: 30%;
+    color: white;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Row-4 {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 200px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(0,32,96);
+}
+.about-column-1 {
+    display: table-cell;
+    text-align: left;
+    color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: 18px;
+    padding-right: 40px;
+}
+main a {
+    padding-left: 5px;
+    color: white;
+}
+main a:hover {
+    color: orangered;
+}
